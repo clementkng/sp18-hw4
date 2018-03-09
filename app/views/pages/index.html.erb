@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <h1>Cats Table</h1>
+  <% @cats.each do |c| %>
+  	<h2><%= c.name %><h2>
+  <% end %>
+
+  <h1>Todos Table</h1>
+  <% @todos.each do |t| %>
+  	<h2><%= t.tasks %><h2>
+  <% end %>
+
+  <h1>Users Table</h1>
+  <% @users.each do |u| %>
+  	<h2><%= u.username %><h2>
+  <% end %>
+</html>
